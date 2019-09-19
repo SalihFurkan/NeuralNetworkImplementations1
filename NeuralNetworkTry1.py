@@ -17,7 +17,7 @@ def derivative_of_sigmoid(x):
 	return np.multiply(sigmoid(x),(1-sigmoid(x)))
 
 # Loading Matlab data
-path = 'C:\\Users\\Salih Furkan\\Desktop\\Dersler\\EEE 443 - Neural Networks\\Assignment 1\\assign1_data1'
+path = 'assign1_data1'
 data = sio.loadmat(path)
 # Storing data in a list
 trainfull = data['trainims']
